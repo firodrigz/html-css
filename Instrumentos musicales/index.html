@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INSTRUMENTOS MUSICALES RODRÍGUEZ</title>
+    <link rel="shortcut icon" type="image/x-icon"href= "imagenes/General/icon.jpg"> 
+    <link href="style.css" rel="stylesheet" type="text/css">  
+    <script>
+        var cont=0
+        function cambia2() {
+            cont++;
+            switch(cont%6+1)
+            {
+            case 1:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/1.jpg";
+            break;
+            case 2:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/2.jpeg";
+            break;
+            case 3:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/3.jpg";
+            break;
+            case 4:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/4.jpg";
+            break;
+            case 5:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/5.jpg";
+            break;
+            case 6:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/6.jpg";
+            break; 
+            }   
+        }
+        function inicio() {
+            setInterval(cambia2, 3000);
+            }
+        window.onload=inicio;
+    </script>
+</head>
+
+<body>
+    <div id="estructura">
+        <header class="headerinicio">
+        <img src="imagenes/General/logo.jpg" width="145" height="145" class="logo" >
+        <h1 id="tituloinicio">INSTRUMENTOS MUSICALES RODRÍGUEZ</h1>
+            
+        </header>
+        
+        <div id="infoinicio">
+				<section id="izq">
+	            <h2>Bienvenidos a nuestra web</h2>
+				<p class="parrafo">
+				Encontrá en casa Rodríguez instrumentos musicales en Mercadolibre Argentina. Descubrí la mejor forma de comprar online. Sonidos, guitarras, bajos, accesorios y más. Comprá tu instrumento, recibilo en tu casa y desarrollá tu pasión por la música con instrumentos de calidad. !Compra hoy!!
+					</p>
+				</section>
+            
+          <nav class="menuinicio">
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="definicion.html">  Definición  </a></li>
+                <li><a href="tipos.html">Tipos</a></li>
+                <li><a href="ventas.html">      Ventas     </a></li>
+                <li><a href="contacto.html">   Atención al cliente     </a></li>
+             </ul>
+           </nav>
+            
+        </div>
+        
+        <div id="slideinicio">
+                <img id="fotocambia2" src="imagenes/Inicio/1.jpg" width=900 height=410 class="imginicio"> 
+        </div>  
+       
+        <footer>
+           <cite>Rodriguez Facundo-2020</cite>
+      
+        </footer>
+    </div>
+
+</body>  
+</html>

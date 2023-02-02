@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONTACTO</title>
+    <link rel="shortcut icon" type="image/x-icon"href= "imagenes/General/icon.jpg"> 
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+    <script>
+        var cont=0
+        function cambia2() {
+            cont++;
+            switch(cont%3+1)
+            {
+            case 1:
+            document.getElementById("fotocambia2").src="imagenes/Contacto/contacto1.PNG";
+            break;
+            case 2:
+            document.getElementById("fotocambia2").src="imagenes/Contacto/contacto2.PNG";
+            break;
+            }   
+        }
+        function inicio() {
+            setInterval(cambia2, 3000);
+            }
+        window.onload=inicio;
+    </script>
+</head>
+<body>
+	<div id="estructura">
+        <header>
+            <div id="logo">
+            <section>
+            <img src="imagenes/General/logo.jpg" height="76" width="76" class="logo" >
+            <h1 class="titulo">INSTRUMENTOS MUSICALES RODRÍGUEZ</h1>     
+            </section>
+            </div>
+
+         <nav class="menu">
+            <ul>
+				<li><a href="index.html">Inicio</a></li>
+                <li><a href="definicion.html">Definición</a></li>
+                <li><a href="tipos.html">Tipos</a></li>
+                <li><a href="ventas.html">Ventas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+						
+            </ul>
+         </nav>
+        </header>
+
+       <div id="slide">
+                <img id="fotocambia2" src="imagenes/Contacto/contacto1.PNG" width=900 height=250 class="imginicio"> 
+        </div>  
+
+        <div id="informacion">
+				<section id="formulario">
+                    <img src="imagenes/Contacto/pago.jpg" width="150" height="80" class="pago" >
+				    <h2>Envíenos un mensaje</h2>
+                        
+                    <div>
+                        <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Ingrese su email">
+
+                        <label for="asunto">Asunto:</label>
+                        <input type="asunto" id="asunto" placeholder="Ingrese su asunto">
+                            
+                        <label for="nombre">Mensaje:</label>
+                        <textarea id="mensaje" placeholder="Ingrese su mensaje"></textarea>
+							
+                        <input type="submit" value="Enviar"> <a href="roodriguezfacu@gmail.com"></a>
+                            <br>
+							<hr>
+				    </form>
+                    </div>
+                    
+
+                    <div id="datos">
+				    <p>Siempre estamos contentos de saber de usted. ¿Tiene una pregunta general o un pedido?. Complete el formulario o simplemente llámenos. <br><br>
+                    <strong>Teléfono:</strong>011 4697-2936<br>
+                    <strong>Web:</strong> amigonianos.org<br>
+                    <strong>Dirección:</strong> Av. Don Bosco 4817, Morón, Buenos Aires<br>
+                    <strong>Horarios de atención:</strong>Lunes a viernes de 8hs a 16hs<br></p>
+                    </div>
+            </section>
+
+            <section id="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.9505703635823!2d-58.619425684287805!3d-34.681196980439545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7058e9b1a61%3A0x7f551af3efcf3b47!2sColegio%20Mons.%20Solari!5e0!3m2!1ses-419!2sar!4v1590967621089!5m2!1ses-419!2sar" width="432" height="584" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+				
+        </div>
+
+        <footer>
+            <cite>Rodriguez Facundo-2020</cite>
+        </footer>
+			
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,524 @@
+/*------------inicio------------------------*/
+#tituloinicio{
+    font-family: "Montserrat";
+    color: #006699;
+	margin-top: 10px;
+	font-size: 60px;
+    color: black;
+    line-height: 85px;
+}
+
+.headerinicio{
+	width: 900px;
+	height: 190px;
+	border: 1px solid #ccc;
+    
+}
+
+#infoinicio{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; 
+    float: left;  
+    
+}
+
+.menuinicio{
+    width: 272px;
+	height: 136px;
+	border: 0px solid #ccc;
+	float: left;
+	margin-left: 10px;
+	background: #006699;
+    line-height: 10px;
+    padding: 10px;
+}
+
+.menuinicio ul{}
+
+.menuinicio ul li{
+    
+	list-style: none;
+	
+}
+
+.menuinicio ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 1px solid #ccc;
+	color: #fff;
+    float: left;
+}
+
+.menuinicio ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+    float: left;
+}
+
+#slideinicio{
+	margin-top: 10px;
+	width: 900px;
+	height: 410px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+/*------------principal------------------------*/
+#estructura{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+    padding: 15px;
+	margin: auto;
+    
+}
+
+header{
+	width: 900px;
+	height: 120px;
+	border: 1px solid #ccc;
+    
+}
+
+#logo{
+	width: 325px;
+	height: 60px;
+    border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left; 
+}
+
+#logo section{
+	width:400px;
+	height: 60px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+	float: left; 
+}
+
+.foco, .lamp{
+    padding: 5px;
+    float: right;
+}
+
+.titulo{
+    font-family: "Montserrat";
+	margin-top: 10px;
+	font-size: 40px;
+    
+}
+
+.subtitulo{
+    font-family: "Montserrat";
+	line-height: 9px;
+    font-size: 32px;
+}
+
+.menu{
+	width: 480px;
+	height: 45px;
+    line-height: 14px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 40px;
+	background: #006699;
+}
+
+.menu ul{}
+
+.menu ul li{
+    
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
+
+#slide{
+	margin-top: 15px;
+	width: 900px;
+	height: 250px;
+    border: 1px solid #ccc;
+}
+
+#informacion{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 15px;
+    
+}
+
+.textuno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+    padding:5px;
+    margin-right:6px;
+	text-align: center;
+	color: #4682b4;
+    font-family: "Arial";
+}
+
+.textuno ul{
+	text-align: left;
+    color: black;
+}
+
+.textdos{
+	width: 280px;
+    height: auto; overflow: hidden;
+    padding: 5px;
+    margin-left: 6px;
+    margin-right:6px;
+    float: left;
+    text-align: center;
+	color: #4682b4;
+	border: 1px solid #ccc;
+}
+
+.textres{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+    margin-left: 6px;
+    padding: 5px;
+	float: left;
+	text-align: center;
+	color: #4682b4;
+}
+
+
+.parrafo{
+	color: #707070;
+	text-align: left;
+    font-size: 14px;
+    font: bold;
+    font-family: "Arial";
+    color: black;
+ 
+}
+
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; 
+    color:
+}
+
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; 
+    color: #4682b4;
+}
+
+.img{
+    padding: 5px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+    color: #4682b4;
+}
+
+footer{
+    background: black;
+    color: white;
+	width: 890px;
+	height: 20px;
+    padding: 5px;
+    font: bold;
+    margin-top: 10px;
+	text-align: center;
+    border: 1px solid #c0c0c0;
+    float: left;  
+}
+
+/*------------medidor------------------------*/
+
+.tabla{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+.tabla td{
+    border: 1px solid #ccc;
+    padding: 1px;
+    text-align: center;
+}
+
+.primera{
+    background: #006699;
+	color: #fff;
+}
+
+.caract{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+    margin-left: 6px;
+    padding: 5px;
+	float: left;
+	text-align: center;
+	color: #4682b4;
+}
+
+#dermed{
+	width: 290px;
+	height: 362px;
+	border: 1px solid #ccc;
+	float: right;
+    color: #4682b4;
+}
+
+.titulomed, .classmed{
+    color: black;
+    font-family: "Arial";
+    font-size: 14px;
+    text-align: left;
+    line-height: 12px;
+}
+
+
+
+/*------------accesorios------------------------*/
+.infoacc{
+	width: 602px;
+	height: auto; overflow: hidden;
+	border: 0px solid #ccc;
+	float: left;
+    margin-top: 15px;
+	text-align: center;
+	color: #4682b4;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+.accuno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+    padding:5px;
+    margin-top: 15px;
+    margin-right:6px;
+	text-align: center;
+	color: #4682b4;
+    font-family: "Arial";
+}
+
+.accdos{
+	width: 280px;
+    height: auto; overflow: hidden;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 6px;
+    float: left;
+    text-align: center;
+	color: #4682b4;
+	border: 1px solid #ccc;
+}
+
+.infosub{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; 
+    color: #4682b4;
+}
+
+aside{
+	width: 270px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-left: 6px;
+    padding: 5px;
+	float: right;
+	text-align: center;
+	color: #4682b4;
+}
+
+aside ul{
+    color: black;
+    font-family: "Arial";
+    font-size: 14px;
+    text-align: left;
+   
+}
+
+
+
+/*------------ventas------------------------*/
+.informacionvent{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #ccc;
+	margin-top: 15px;
+    
+}
+.ventuno{
+	width: 280px;
+	height: 245px; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+    padding:5px;
+    margin-right:6px;
+	text-align: center;
+	color: #4682b4;
+    font-family: "Arial";
+    font-size: 12px;
+   
+
+}
+
+.ventdos{
+	width: 280px;
+    height: 245px; overflow: hidden;
+    padding: 5px;
+    margin-left: 6px;
+    margin-right:6px;
+    float: left;
+    text-align: center;
+	color: #4682b4;
+	border: 1px solid #ccc;
+    font-family: "Arial";
+    font-size: 12px;
+   
+}
+
+.ventres{
+	width: 280px;
+	height: 245px; overflow: hidden;
+	border: 1px solid #ccc;
+    margin-left: 6px;
+    padding: 5px;
+	float: left;
+	text-align: center;
+	color: #4682b4;
+    font-family: "Arial";
+    font-size: 12px;
+    line-height: 15px;
+ 
+}
+
+#vid{
+	width: 290px;
+	height: 256px;
+	border: 1px solid #ccc;
+	float: left;
+    color: #4682b4;
+    text-align: center;
+    margin-left: 6px;
+    margin-right:6px;
+}
+
+.compra{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+
+}
+
+.compra:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+/*------------contacto------------------------*/
+#formulario{
+	width: 432px;
+	height: 585px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-family: "Arial";
+    float: left;
+}
+
+#mapa{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: right;
+}
+
+label{
+    display: block;
+    width: 100%;
+}
+
+
+textarea{
+    resize:vertical;
+    max-height: 300px;
+    min-height: 80px;
+}
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: "Arial";
+    
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #1668C4;
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background: #006699;
+	color: #fdfdfd;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
+
+.enviar{
+	padding: 5px;
+	font-size: 16px;
+}
+
+#datos{
+	margin-top: 5px;
+    height: 112px;
+    font-family: "Arial";
+}

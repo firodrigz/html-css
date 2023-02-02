@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>ELECTRICIDAD- MEDIDORES Y ACCESORIOS</title>
+    <link rel="shortcut icon" type="image/x-icon"href= "imagenes/General/icon.jpg"> 
+    <link href="estilos/style.css" rel="stylesheet" type="text/css">  
+    <script>
+        var cont=0
+        function cambia2() {
+            cont++;
+            switch(cont%6+1)
+            {
+            case 1:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/medidorestr.jpg";
+            break;
+            case 2:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/accesorios3.jpg";
+            break;
+            case 3:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/muchosmedidores.jpg";
+            break;
+            case 4:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/accesorios2.jpg";
+            break;
+            case 5:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/medidoresluz.jpg";
+            break;
+            case 6:
+            document.getElementById("fotocambia2").src="imagenes/Inicio/accesorios.jpg";
+            break; 
+            }   
+        }
+        function inicio() {
+            setInterval(cambia2, 3000);
+            }
+        window.onload=inicio;
+    </script>
+</head>
+
+<body>
+    <div id="estructura">
+        <header class="headerinicio">
+        <img src="imagenes/General/lampara.webp" width="110" height="85" class="foco" >
+        <h1 id="tituloinicio">ELECTRICIDAD - MEDIDORES Y ACCESORIOS</h1>
+            
+        </header>
+        
+        <div id="infoinicio">
+				<section id="izq">
+	            <h2>Bienvenidos a nuestra web</h2>
+				<p class="parrafo">
+				Somos líderes en venta y fabricación de medidores y accesorios de electricidad para tu hogar o empresa. Hoy seguimos brindando servicios con la seriedad, transparencia y eficacia de siempre, demostrando que todos los años en los que estamos en el mercado no solo han sido para adquirir experiencia, sino tambien para estar seguros de lo que brindamos.
+					</p>
+				</section>
+            
+          <nav class="menuinicio">
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="medidor.html"> Medidores  </a></li>
+                <li><a href="accesorios.html">Accesorios</a></li>
+                <li><a href="ventas.html">Ventas </a></li>
+                <li><a href="contacto.html">   Atención al cliente     </a>
+                </li>
+             </ul>
+           </nav>
+            
+        </div>
+        
+        <div id="slideinicio">
+                <img id="fotocambia2" src="imagenes/Inicio/medidorestr.jpg" "imagenes/Inicio/accesorios3.jpg" "imagenes/Inicio/muchosmedidores.jpg"
+                 "imagenes/Inicio/accesorios2.jpg" "imagenes/Inicio/medidoresluz.jpg"
+                 "imagenes/Inicio/accesorios.jpg" width=890 height=400 class="img"> 
+        </div>
+
+        <div class="clearfix"> </div>
+       
+       
+        <footer>
+				<cite>Rodriguez Facundo-2020</cite>
+        </footer>
+    </div>
+
+</body>  
+</html>
